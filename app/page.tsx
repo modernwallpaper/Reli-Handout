@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Separator } from "@/components/ui/separator"
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -60,7 +61,13 @@ export default function Home() {
           </div>
         </ScrollArea>
         <br />
-        <Button variant={"outline"}>Quellen {'>'}</Button>
+        <Button asChild variant={"outline"}>
+          <div>
+            <Link href={"/quellen"}>
+              Quellen {'>'}
+            </Link>
+          </div>
+        </Button>
       </div>
     </main>
   );
