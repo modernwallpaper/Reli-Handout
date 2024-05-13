@@ -1,4 +1,5 @@
 import { ScrollArea } from "@/components/ui/scroll-area"
+import { Separator } from "@/components/ui/separator"
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
           <div className="flex justify-center items-center">
             <h1 className="text-4xl font-bold">Reli Handout - Wilhelm Emmanuel von Ketteler</h1>
           </div>
-          <br/>
+          <Separator />
           <p>
             <div className="font-bold">
               Inhaltsbereich:
@@ -22,7 +23,7 @@ export default function Home() {
             <br/>
             4. Seine Errungenschaften Förerungen und Prägungen
           </p>
-          <br/>
+          <Separator />
           <div>
             <p>
               <div className="font-bold">
@@ -45,7 +46,7 @@ export default function Home() {
               Maßnahme zur Verbesserung der wirtschaftlichen und sozialen Situation insbesondere benachteiligter gesellschaftlicher Gruppen. 
             </p> 
           </div>
-          <br/>
+          <Separator />
           <div>
             <p>
               <div className="font-bold">Fazit</div>
