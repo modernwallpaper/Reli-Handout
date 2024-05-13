@@ -20,7 +20,7 @@ export default function Quellen() {
         </Button>
         <Button asChild variant={"link"}>
           <div>
-            <Link href={"bistum/kunst-gebaeude-geschichte/kirchengeschichte/.galleries/images/BDDM_14859_1850-1877_Wilhelm-Emmanuel-Freiherr-von-Ketteler.jpg_1885205982.jpg"}>Bild 3</Link>
+            <Link href={"https://gw.geneanet.org/public/img/media/deposits/11/ad/3792243/medium.jpg?t=1449591104"}>Bild 3</Link>
           </div>
         </Button>
         <Button asChild variant={"link"}>
