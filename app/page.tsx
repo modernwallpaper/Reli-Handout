@@ -45,6 +45,16 @@ export default function Home() {
               Maßnahme zur Verbesserung der wirtschaftlichen und sozialen Situation insbesondere benachteiligter gesellschaftlicher Gruppen. 
             </p> 
           </div>
+          <div>
+            <p>
+              <div className="font-bold">Fazit</div>
+              <br />
+              <div>
+                Wilhelm Emmanuel von Ketteler war eine Person, die im 19. Jahrundert gelebt hat und für die heutige Katholische Arbeitnehmerbewegung(KAB) verantwortlich ist.
+                Sie setzt sich für Gesetzesänderungen und bessere Arbeitsbedingungen ein.
+              </div>
+            </p>
+          </div>
         </ScrollArea>
       </div>
     </main>
