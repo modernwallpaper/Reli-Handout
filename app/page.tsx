@@ -9,7 +9,7 @@ export default function Home() {
           <div className="flex justify-center items-center">
             <h1 className="text-4xl font-bold">Reli Handout - Wilhelm Emmanuel von Ketteler</h1>
           </div>
-          <Separator className="p-4"/>
+          <Separator className="m-4"/>
           <p>
             <div className="font-bold">
               Inhaltsbereich:
@@ -23,7 +23,7 @@ export default function Home() {
             <br/>
             4. Seine Errungenschaften Förerungen und Prägungen
           </p>
-          <Separator className="p-4"/>
+          <Separator className="m-4"/>
           <div>
             <p>
               <div className="font-bold">
@@ -46,7 +46,7 @@ export default function Home() {
               Maßnahme zur Verbesserung der wirtschaftlichen und sozialen Situation insbesondere benachteiligter gesellschaftlicher Gruppen. 
             </p> 
           </div>
-          <Separator className="p-4"/>
+          <Separator className="m-4"/>
           <div>
             <p>
               <div className="font-bold">Fazit</div>
