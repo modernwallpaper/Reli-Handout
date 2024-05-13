@@ -45,6 +45,7 @@ export default function Home() {
               Maßnahme zur Verbesserung der wirtschaftlichen und sozialen Situation insbesondere benachteiligter gesellschaftlicher Gruppen. 
             </p> 
           </div>
+          <br/>
           <div>
             <p>
               <div className="font-bold">Fazit</div>
