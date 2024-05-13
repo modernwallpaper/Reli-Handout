@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Separator } from "@/components/ui/separator"
 
@@ -5,12 +6,12 @@ export default function Home() {
   return (
     <main className="bg-sky-100 w-full h-full flex items-center justify-center">
       <div className="w-auto h-auto bg-white p-4 rounded-md border drop-shadow-md">
-        <ScrollArea>
-          <div className="flex justify-center items-center">
-            <h1 className="text-4xl font-bold">Reli Handout - Wilhelm Emmanuel von Ketteler</h1>
-          </div>
-          <Separator className="m-4"/>
-          <p>
+        <div className="flex justify-center items-center">
+          <h1 className="text-4xl font-bold">Reli Handout - Wilhelm Emmanuel von Ketteler</h1>
+        </div>
+        <br />
+        <ScrollArea className="border rounded-md p-2">
+          <div>
             <div className="font-bold">
               Inhaltsbereich:
             </div>
@@ -22,10 +23,10 @@ export default function Home() {
             3. Die Katholische Arbeitnehmerbewegung(KAB)
             <br/>
             4. Seine Errungenschaften Förerungen und Prägungen
-          </p>
+          </div>
           <Separator className="m-4"/>
           <div>
-            <p>
+            <div>
               <div className="font-bold">
                 Begriffe, Definitionen:
               </div>
@@ -44,20 +45,22 @@ export default function Home() {
                 Sozialpolitisch:            
               </div>
               Maßnahme zur Verbesserung der wirtschaftlichen und sozialen Situation insbesondere benachteiligter gesellschaftlicher Gruppen. 
-            </p> 
+            </div> 
           </div>
           <Separator className="m-4"/>
           <div>
-            <p>
+            <div>
               <div className="font-bold">Fazit</div>
               <br />
               <div>
                 Wilhelm Emmanuel von Ketteler war eine Person, die im 19. Jahrundert gelebt hat und für die heutige Katholische Arbeitnehmerbewegung(KAB) verantwortlich ist.
                 Sie setzt sich für Gesetzesänderungen und bessere Arbeitsbedingungen ein.
               </div>
-            </p>
+            </div>
           </div>
         </ScrollArea>
+        <br />
+        <Button variant={"outline"}>Quellen {'>'}</Button>
       </div>
     </main>
   );
